@@ -39,4 +39,7 @@
 #print(bremen_music[::-1])
 #print(len(bremen_music))
 
-cub_number = list(1,1001,1)
+cub_number = list(range(1,1001,2))
+for i in cub_number:
+    i = i ** 3
+    print(i)
