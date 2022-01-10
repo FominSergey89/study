@@ -9,14 +9,6 @@
 #print (new_hours, new_minutes)
 
 
-# Домашнее задание урок 1 задание 1
-#time = 400153
-#sek = time % 60
-#minutes = (time // 60) % 60
-#hours = (time // 3600) % 24
-#days = time // 86400
-#print(days, 'дня', hours, 'часов', minutes, 'минут', sek, 'секунд')
-
 #param = int(input('Сколько месяцев году?'))
 #if param == 12:
 #    print('Поздравляем вы угадали')
@@ -39,7 +31,4 @@
 #print(bremen_music[::-1])
 #print(len(bremen_music))
 
-cub_number = list(range(1,1001,2))
-for i in cub_number:
-    i = i ** 3
-    print(i)
+
